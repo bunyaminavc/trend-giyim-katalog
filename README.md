@@ -57,13 +57,3 @@ lib/
    ```bash
    flutter run
    ```
-
-## Notlar
-- Bu eğitimin kapsamı gereği (`material.dart` dışında ekstra paket kullanılmaması)
-  sepet ve favoriler state yönetimi harici bir paket (Provider vb.) yerine Flutter
-  SDK'sının kendi getirdiği `ChangeNotifier` sınıfı ile basit singleton'lar
-  (`CartService`, `FavoritesService`) olarak simüle edilmiştir. Bu sayede sepete bir
-  ürün başka bir ekrandan (ör. ürün detayından) eklendiğinde de Sepet/Favoriler
-  sekmeleri otomatik güncellenir.
-- Ürün görselleri yerine kategoriye özel ikonlar ve renkler kullanılmıştır (gerçek
-  görsel asset gerektirmeden çalışır durumda kalması için).
